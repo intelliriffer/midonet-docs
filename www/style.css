@@ -566,28 +566,6 @@ h4 {
     margin-bottom: 16px;
 }
 
-.col-fourth {
-    width: 25%;
-    float: left;
-}
-
-.col-two-third {
-    width: 66%;
-    float: left;
-}
-
-.col-one-third {
-    width: 33%;
-    float: left;
-    min-width: 200px;
-}
-
-.col-half {
-    width: 50%;
-    float: left;
-    min-width: 200px;
-}
-
 .col-one-third:nth-child(3n+1) .box {
     //margin-right:0px;
 }
@@ -821,6 +799,31 @@ td {
     padding: 10px;
 }
 
+.doc-col {
+    margin: 0 16px 0px 0px;
+}
+
+.doc-col ul {
+    list-style: none !important;
+    margin: 0px !important;
+}
+
+.doc-col h3 {
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.doc-col ul a {
+    font-size: 16px;
+    display: block;
+    padding: 8px 0px;
+}
+
+
+/*************************  Mobility Breakpoints ******************/
+
 
 /* Fixes for Small Displays */
 
@@ -859,6 +862,24 @@ td {
         min-width: initial;
         margin: 0px;
         padding-left: 10px;
+    }
+    .col-fourth {
+        width: 25%;
+        float: left;
+    }
+    .col-two-third {
+        width: 66%;
+        float: left;
+    }
+    .col-one-third {
+        width: 33%;
+        float: left;
+        min-width: 200px;
+    }
+    .col-half {
+        width: 50%;
+        float: left;
+        min-width: 200px;
     }
 }
 
