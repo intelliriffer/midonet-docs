@@ -495,7 +495,6 @@ h4,
 #policies h3,
 h4 {
     margin: 16px 0px 4px 0px;
-    font-size: 95%;
 }
 
 #trademark ul,
@@ -748,6 +747,18 @@ ul.dlinks li a:hover {
 
 
 /* Text Stylers */
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
 
 .medium {
     font-size: 24px !important;
