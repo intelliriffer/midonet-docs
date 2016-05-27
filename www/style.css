@@ -827,6 +827,16 @@ td {
 
 /* Fixes for Small Displays */
 
+@media(max-width:600px) {
+    ul.social {
+        clear: both !important;
+        float: none !important;
+        margin-right: 0;
+        padding-top: 16px;
+        text-align: left;
+    }
+}
+
 @media (max-width:400px) {
     .topbutton {
         display: none;
